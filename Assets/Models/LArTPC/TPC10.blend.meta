@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 6752ea079210d7c4bb4ed8a32d7b8ac4
+timeCreated: 1438277648
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: cathode
+    100002: cryostat
+    100004: feedthroughs1
+    100006: feedthroughs2
+    100008: fieldCage
+    100010: flatTPBPlates
+    100012: frame
+    100014: largePMTs
+    100016: muMetalShields
+    100018: racks
+    100020: removableEndcap
+    100022: roundTPBPlates
+    100024: smallPMTs
+    100026: //RootNode
+    100028: wirePlane
+    400000: cathode
+    400002: cryostat
+    400004: feedthroughs1
+    400006: feedthroughs2
+    400008: fieldCage
+    400010: flatTPBPlates
+    400012: frame
+    400014: largePMTs
+    400016: muMetalShields
+    400018: racks
+    400020: removableEndcap
+    400022: roundTPBPlates
+    400024: smallPMTs
+    400026: //RootNode
+    400028: wirePlane
+    2300000: cathode
+    2300002: cryostat
+    2300004: feedthroughs1
+    2300006: feedthroughs2
+    2300008: fieldCage
+    2300010: flatTPBPlates
+    2300012: frame
+    2300014: largePMTs
+    2300016: muMetalShields
+    2300018: racks
+    2300020: removableEndcap
+    2300022: roundTPBPlates
+    2300024: smallPMTs
+    2300026: wirePlane
+    3300000: cathode
+    3300002: cryostat
+    3300004: feedthroughs1
+    3300006: feedthroughs2
+    3300008: fieldCage
+    3300010: flatTPBPlates
+    3300012: frame
+    3300014: largePMTs
+    3300016: muMetalShields
+    3300018: racks
+    3300020: removableEndcap
+    3300022: roundTPBPlates
+    3300024: smallPMTs
+    3300026: wirePlane
+    4300000: frame
+    4300002: muMetalShields
+    4300004: smallPMTs
+    4300006: flatTPBPlates
+    4300008: largePMTs
+    4300010: wirePlane
+    4300012: fieldCage
+    4300014: racks
+    4300016: cathode
+    4300018: roundTPBPlates
+    4300020: cryostat
+    4300022: feedthroughs1
+    4300024: feedthroughs2
+    4300026: removableEndcap
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

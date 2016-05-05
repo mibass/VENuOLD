@@ -1,0 +1,55 @@
+--------------
+--   TODO   --
+--------------
+Here are some (small) features we still want to implement or change before v1.0 (Tentative release: 8/7/2015)
+
+[ ] 1. Scale track collider boxes with camera distance so that it's easier to click on tracks close up.
+[x] 2. Implement the new DrawSpacePoint.js script and fix the settings panel to have particle density settings 0, low, medium, high.
+[ ] 3. Possibly add a way to rotate the detector in AR mode.
+[-] 4. AR mode should scale tracks correctly. [Feature cancelled for v1.0]
+[x] 5. Clean out the old code & assets, and establish a naming convention for files and variables.
+[x] 6. After step (5) is completed, add documentation so that the next group of people to work on this has a point of reference.
+[x] 7. Get at least some of the track information in (origin, nhits, length).
+[ ] 8. Fix UI scaling between versions (menus are too big in standalone version).
+[ ] 9. Get the damn threading code already.
+[ ] 10. Fix all the known bugs
+[x] 11. Deal with events that don’t use the regular algorithm. Maybe add an algorithm choice in settings?
+[x] 12. Fix Android hard-coded elements.
+[ ] 13. Remove need for hard-coded elements.
+[x] 14. Redesign the splash page.
+[x] 15. Remove Next/Previous buttons.
+
+--------------
+-- BUG LIST --
+--------------
+This is a list of known bugs/odd behaviors that we should fix. 
+Please update this file (following the same convention) when these issues are addressed or new bugs are found.
+
+The convention is: Add '-' in front of bugs. This changes to a '+' when the bug is fixed (allows for quick scanning).
+Add a note at the end of the bug line with '[FIXED by <name>]'.
+If you are feeling especially kind, consider adding a 'o' in front of bugs you are working on so others do not also 
+start working on these. Including your name will allow people to find you if they have questions. E.g.:
+
+o Clicking on a track deletes the source code [Thomas]
+
+Remember, this bug list doesn't help anyone unless it's kept up-to-date!
+
+From 7/22
+- Users can click outside of the mini map range and the camera will be moved outside the detector
+
+From 7/23
+- Joysticks/slider don't block camera positioning in all versions/track clicks on mobile
+- Tracks should only highlight on tap, not on drag
+
+From 8/5
++ Algorithms aren't saved when returning back to the main menu [FIXED by Thomas]
++ Camera on minimap clips oddly when changing the up/down rotation [FIXED by Owen]
+
+----------------
+-- THE FUTURE --
+----------------
+These are some of our stretch goals discussed at the end of Summer 2015
+
+1. Virtual Reality: Oculus Rift, Google Cardboard.
+2. Animated events: Spacepoint drift & track repositioning.
+3. Revamp the online event menu with a file browser or hierarchy instead of hard-coded links.
